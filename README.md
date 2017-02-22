@@ -40,7 +40,7 @@ Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sen
 
 [CoreNLP](https://github.com/stanfordnlp/CoreNLP): Supervised Machine Learning
 
-[ASUM](http://uilab.kaist.ac.kr/research/WSDM11/): Unsupervised Machine Learning, Latent Dirichlet Allocation
+[ASUM](http://uilab.kaist.ac.kr/research/WSDM11/): Unsupervised Machine Learning, Latent Dirichlet Allocation. [[paper]](https://people.cs.umass.edu/~wallach/workshops/nips2010css/papers/jo.pdf)
 
 ### Python
 [nltk](http://www.nltk.org/): [VADER](https://github.com/cjhutto/vaderSentiment) sentiment analysis tool, Lexical, Dictionary-based, Rule-based. [[paper]](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf)
