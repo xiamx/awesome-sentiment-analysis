@@ -66,7 +66,7 @@ Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sen
 
 [7compass/sentimental](https://github.com/7compass/sentimental): Lexical, Dictionary-based.
 
-### Contributing
+## Contributing
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
