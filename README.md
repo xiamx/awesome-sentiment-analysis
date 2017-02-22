@@ -32,10 +32,10 @@ The goal of this repository is to provide adequate links for scholars who want t
 
 ## Introduction
 
-Sentiment Analysis (SA) happens at various levels: 
-- Document-level SA evaluate sentiment of a single entity (i.e. a product) from a review document. 
-- Sentence-level SA evaluate sentiment from a single sentence. 
-- Aspect-level SA performs finer-grain analysis. For example, the sentence “the iPhone’s call quality is good, but its battery life is short.” evaluates two aspects: call quality and battery life, of iPhone (entity). The sentiment on iPhone’s call quality is positive, but the sentiment on its battery life is negative. (Liu 2012)
+Sentiment Analysis happens at various levels: 
+- Document-level Sentiment Analysis evaluate sentiment of a single entity (i.e. a product) from a review document. 
+- Sentence-level Sentiment Analysis evaluate sentiment from a single sentence. 
+- Aspect-level Sentiment Analysis performs finer-grain analysis. For example, the sentence “the iPhone’s call quality is good, but its battery life is short.” evaluates two aspects: call quality and battery life, of iPhone (entity). The sentiment on iPhone’s call quality is positive, but the sentiment on its battery life is negative. (Liu 2012)
 
 Most recent research focuses on the aspect-based approaches. But not all opensource implementations are caught up yet.
 
