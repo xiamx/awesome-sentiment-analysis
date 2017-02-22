@@ -75,6 +75,17 @@ SemEval14-Task4: Annotated aspects and sentiments of laptops and restaurants rev
 
 [7compass/sentimental](https://github.com/7compass/sentimental): Lexical, Dictionary-based.
 
+
+## SaaS APIs
+
+Google Cloud Natural Language API [[web]](https://cloud.google.com/natural-language/)
+
+IBM Watson Alchemy Language [[web]](https://www.ibm.com/watson/developercloud/alchemy-language.html)
+
+Microsoft Cognitive Service [[web]](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
+
+Aylien [[web]](https://developer.aylien.com/text-api-demo)
+
 ## Contributing
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
