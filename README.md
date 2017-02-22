@@ -13,7 +13,7 @@ Sentiment Analysis (SA) happens at various levels:
 
 Most recent research focuses on the aspect-based approaches. But not all opensource implementations are caught up yet.
 
-There are many different approaches to solve the problem. Some use Lexical methods, such as looking at the frequency of positive and negative words (from i.e. SentiWordNet) occuring in the given sentence. Some use Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM.) Some use Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec). Recent work also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), as well as their attention-based variants.
+There are many different approaches to solve the problem. Lexical methods, for example, look at the frequency of words expressing positive and negative sentiment (from i.e. SentiWordNet) occuring in the given sentence. Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM.), can be used with training data. Since training examples are difficult to obtain, Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec) are also used on large unlabeled datasets. Recent works also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), as well as their attention-based variants. Those interested can find more details in the survey papers.
 
 ## Survey Papers 
 
@@ -27,6 +27,13 @@ Medhat, Walaa, Ahmed Hassan, and Hoda Korashy. "Sentiment analysis algorithms an
 
 Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sentiment and topic classification." Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2. Association for Computational Linguistics, 2012. [[pdf]](http://nlp.stanford.edu/pubs/sidaw12_simple_sentiment.pdf)
 
+## Resources and Corpora
+
+SentiWordNet: Lexical resource devised for supporting sentiment analysis. [[web]](http://sentiwordnet.isti.cnr.it/) [[paper]](https://www.researchgate.net/profile/Fabrizio_Sebastiani/publication/220746537_SentiWordNet_30_An_Enhanced_Lexical_Resource_for_Sentiment_Analysis_and_Opinion_Mining/links/545fbcc40cf27487b450aa21.pdf)
+
+GloVe: Algorithm for obtaining word vectors. Pretrained word vectors available for download [[web]](http://nlp.stanford.edu/projects/glove/) [[paper]](http://nlp.stanford.edu/pubs/glove.pdf)
+
+SemEval14-Task4: Annotated aspects and sentiments of laptops and restaurants reviews. [[web]](http://alt.qcri.org/semeval2014/task4/) [[paper]](http://www.aclweb.org/anthology/S14-2004)
 
 ## Open Source Implementations
 
