@@ -4,23 +4,25 @@ A curated list of Sentiment Analysis methods, implementations and misc.
 
 > Sentiment Analysis is the field of study that analyzes people's opinions, sentiments, evaluations, attitudes, and emotions from written languages. (Liu 2012)
 
+## Table of Content
+
 <!-- TOC -->
 
-- [😀😄😂😭 Sentment Analysis 😥😟😱😤](#😀😄😂😭-sentment-analysis-😥😟😱😤)
-    - [Objective](#objective)
-    - [Introduction](#introduction)
-    - [Survey Papers](#survey-papers)
-    - [Baseline Systems](#baseline-systems)
-    - [Resources and Corpora](#resources-and-corpora)
-    - [Open Source Implementations](#open-source-implementations)
-        - [NodeJS](#nodejs)
-        - [Java](#java)
-        - [Python](#python)
-        - [R](#r)
-        - [Golang](#golang)
-        - [Ruby](#ruby)
-    - [SaaS APIs](#saas-apis)
-    - [Contributing](#contributing)
+- [Table of Content](#table-of-content)
+- [Objective](#objective)
+- [Introduction](#introduction)
+- [Survey Papers](#survey-papers)
+- [Baseline Systems](#baseline-systems)
+- [Resources and Corpora](#resources-and-corpora)
+- [Open Source Implementations](#open-source-implementations)
+    - [NodeJS](#nodejs)
+    - [Java](#java)
+    - [Python](#python)
+    - [R](#r)
+    - [Golang](#golang)
+    - [Ruby](#ruby)
+- [SaaS APIs](#saas-apis)
+- [Contributing](#contributing)
 
 <!-- /TOC -->
 
