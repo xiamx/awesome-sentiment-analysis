@@ -11,9 +11,9 @@ Sentiment Analysis (SA) happens at various levels:
 - Sentence-level SA evaluate sentiment from a single sentence. 
 - Aspect-level SA performs finer-grain analysis. For example, the sentence “the iPhone’s call quality is good, but its battery life is short.” evaluates two aspects: call quality and battery life, of iPhone (entity). The sentiment on iPhone’s call quality is positive, but the sentiment on its battery life is negative. (Liu 2012)
 
-Most recent research focuses on Aspect-based approaches. But not all opensource implementations are caught up yet.
+Most recent research focuses on the aspect-based approaches. But not all opensource implementations are caught up yet.
 
-There are many different approaches to solve the problem. Some use Lexical methods, such as looking at the frequency of positive and negative words (from i.e. SentiWordNet) occuring in the given sentence. Some use Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM.) Some use Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec). Recent work also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), and also their attention-based variants.
+There are many different approaches to solve the problem. Some use Lexical methods, such as looking at the frequency of positive and negative words (from i.e. SentiWordNet) occuring in the given sentence. Some use Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM.) Some use Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec). Recent work also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), as well as their attention-based variants.
 
 ## Survey Papers 
 
@@ -36,11 +36,11 @@ Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sen
 [thinkroth/Sentimental](https://github.com/thinkroth/Sentimental) Lexical, Dictionary-based, AFINN-based.
 
 ### Java
-[LingPipe](http://alias-i.com/): Lexical, Corpus-based.
+[LingPipe](http://alias-i.com/): Lexical, Corpus-based, Supervised Machine Learning
 
 [CoreNLP](https://github.com/stanfordnlp/CoreNLP): Supervised Machine Learning
 
-[ASUM](http://uilab.kaist.ac.kr/research/WSDM11/): Unsupervised Machine Learning, Latent Dirichlet Allocation. [[paper]](https://people.cs.umass.edu/~wallach/workshops/nips2010css/papers/jo.pdf)
+[ASUM](http://uilab.kaist.ac.kr/research/WSDM11/): Unsupervised Machine Learning, Latent Dirichlet Allocation. [[paper]](http://www.cs.cmu.edu/~yohanj/research/papers/WSDM11.pdf)
 
 ### Python
 [nltk](http://www.nltk.org/): [VADER](https://github.com/cjhutto/vaderSentiment) sentiment analysis tool, Lexical, Dictionary-based, Rule-based. [[paper]](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf)
