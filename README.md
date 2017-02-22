@@ -12,7 +12,10 @@ Vinodhini, G., and R. M. Chandrasekaran. "Sentiment analysis and opinion mining:
 
 Medhat, Walaa, Ahmed Hassan, and Hoda Korashy. "Sentiment analysis algorithms and applications: A survey." Ain Shams Engineering Journal 5.4 (2014): 1093-1113. [[pdf]](http://www.sciencedirect.com/science/article/pii/S2090447914000550)
 
-## 
+## Baseline Systems
+
+Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sentiment and topic classification." Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2. Association for Computational Linguistics, 2012. [[pdf]](http://nlp.stanford.edu/pubs/sidaw12_simple_sentiment.pdf)
+
 
 ## Open Source Implementations
 
