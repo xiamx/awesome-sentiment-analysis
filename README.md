@@ -65,6 +65,8 @@ SemEval14-Task4: Annotated aspects and sentiments of laptops and restaurants rev
 
 ## Open Source Implementations
 
+The characteristics of each implementation are desribed.
+
 ### NodeJS
 [thisandagain/sentiment]( https://github.com/thisandagain/sentiment): Lexical, Dictionary-based, AFINN-based.
 
