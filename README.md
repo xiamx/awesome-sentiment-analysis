@@ -27,6 +27,8 @@ Medhat, Walaa, Ahmed Hassan, and Hoda Korashy. "Sentiment analysis algorithms an
 
 Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sentiment and topic classification." Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2. Association for Computational Linguistics, 2012. [[pdf]](http://nlp.stanford.edu/pubs/sidaw12_simple_sentiment.pdf)
 
+Cambria, Erik, Daniel Olsher, and Dheeraj Rajagopal. "SenticNet 3: a common and common-sense knowledge base for cognition-driven sentiment analysis." Proceedings of the twenty-eighth AAAI conference on artificial intelligence. AAAI Press, 2014. [[pdf]](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8479/8602)
+
 ## Resources and Corpora
 
 SentiWordNet: Lexical resource devised for supporting sentiment analysis. [[web]](http://sentiwordnet.isti.cnr.it/) [[paper]](https://www.researchgate.net/profile/Fabrizio_Sebastiani/publication/220746537_SentiWordNet_30_An_Enhanced_Lexical_Resource_for_Sentiment_Analysis_and_Opinion_Mining/links/545fbcc40cf27487b450aa21.pdf)
