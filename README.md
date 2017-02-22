@@ -46,4 +46,5 @@ Medhat, Walaa, Ahmed Hassan, and Hoda Korashy. "Sentiment analysis algorithms an
 
 ### Ruby
 [malavbhavsar/sentimentalizer](https://github.com/malavbhavsar/sentimentalizer): Lexical, Dictionary-based.
+
 [7compass/sentimental](https://github.com/7compass/sentimental): Lexical, Dictionary-based.
