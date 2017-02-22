@@ -4,6 +4,17 @@ A curated list of Sentiment Analysis methods, implementations and misc.
 
 > Sentiment Analysis is the field of study that analyzes people's opinions, sentiments, evaluations, attitudes, and emotions from written languages. (Liu 2012)
 
+The goal of this repository is to provide adequate links for scholars who want to research in this domain; And at the same time, be sufficiently accessible for developers who want to integrate sentiment analysis into their applications.
+
+Sentiment Analysis (SA) happens at various levels: 
+- Document-level SA evaluate sentiment of a single entity (i.e. a product) from a review document. 
+- Sentence-level SA evaluate sentiment from a single sentence. 
+- Aspect-level SA performs finer-grain analysis. For example, the sentence “the iPhone’s call quality is good, but its battery life is short.” evaluates two aspects: call quality and battery life, of iPhone (entity). The sentiment on iPhone’s call quality is positive, but the sentiment on its battery life is negative. (Liu 2012)
+
+Most recent research focuses on Aspect-based approaches. But not all opensource implementations are caught up yet.
+
+There are many different approaches to solve the problem. Some use Lexical methods, such as looking at the frequency of positive and negative words (from i.e. SentiWordNet) occuring in the given sentence. Some use Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM.) Some use Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec). Recent work also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), and also their attention-based variants.
+
 ## Survey Papers 
 
 Liu, Bing. "Sentiment analysis and opinion mining." Synthesis lectures on human language technologies 5.1 (2012): 1-167. [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.244.9480&rep=rep1&type=pdf)
@@ -21,12 +32,15 @@ Wang, Sida, and Christopher D. Manning. "Baselines and bigrams: Simple, good sen
 
 ### NodeJS
 [thisandagain/sentiment]( https://github.com/thisandagain/sentiment): Lexical, Dictionary-based, AFINN-based.
+
 [thinkroth/Sentimental](https://github.com/thinkroth/Sentimental) Lexical, Dictionary-based, AFINN-based.
 
 ### Java
 [LingPipe](http://alias-i.com/): Lexical, Corpus-based.
 
 [CoreNLP](https://github.com/stanfordnlp/CoreNLP): Supervised Machine Learning
+
+[ASUM](http://uilab.kaist.ac.kr/research/WSDM11/): Unsupervised Machine Learning, Latent Dirichlet Allocation
 
 ### Python
 [nltk](http://www.nltk.org/): [VADER](https://github.com/cjhutto/vaderSentiment) sentiment analysis tool, Lexical, Dictionary-based, Rule-based. [[paper]](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf)
