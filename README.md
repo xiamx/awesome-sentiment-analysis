@@ -21,6 +21,7 @@ A curated list of Sentiment Analysis methods, implementations and misc.
     - [R](#r)
     - [Golang](#golang)
     - [Ruby](#ruby)
+    - [C](#c)
 - [SaaS APIs](#saas-apis)
 - [Contributing](#contributing)
 
@@ -102,6 +103,9 @@ The characteristics of each implementation are desribed.
 [malavbhavsar/sentimentalizer](https://github.com/malavbhavsar/sentimentalizer): Lexical, Dictionary-based.
 
 [7compass/sentimental](https://github.com/7compass/sentimental): Lexical, Dictionary-based.
+
+### C#
+[amrish7/Dragon](https://github.com/amrish7/Dragon): Supervised Machine Learning, Naive Bayes Classifier.
 
 
 ## SaaS APIs
