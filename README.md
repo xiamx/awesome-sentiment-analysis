@@ -4,7 +4,7 @@ A curated list of Sentiment Analysis methods, implementations and misc.
 
 > Sentiment Analysis is the field of study that analyzes people's opinions, sentiments, evaluations, attitudes, and emotions from written languages. (Liu 2012)
 
-The goal of this repository is to provide adequate links for scholars who want to research in this domain; And at the same time, be sufficiently accessible for developers who want to integrate sentiment analysis into their applications.
+The goal of this repository is to provide adequate links for scholars who want to research in this domain; and at the same time, be sufficiently accessible for developers who want to integrate sentiment analysis into their applications.
 
 Sentiment Analysis (SA) happens at various levels: 
 - Document-level SA evaluate sentiment of a single entity (i.e. a product) from a review document. 
