@@ -40,7 +40,7 @@ Sentiment Analysis happens at various levels:
 
 Most recent research focuses on the aspect-based approaches. But not all opensource implementations are caught up yet.
 
-There are many different approaches to solve the problem. Lexical methods, for example, look at the frequency of words expressing positive and negative sentiment (from i.e. SentiWordNet) occuring in the given sentence. Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM.), can be used with training data. Since training examples are difficult to obtain, Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec) are also used on large unlabeled datasets. Recent works also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), as well as their attention-based variants. You will find more details in the survey papers.
+There are many different approaches to solve the problem. Lexical methods, for example, look at the frequency of words expressing positive and negative sentiment (from i.e. SentiWordNet) occuring in the given sentence. Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM), can be used with training data. Since training examples are difficult to obtain, Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec) are also used on large unlabeled datasets. Recent works also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), as well as their attention-based variants. You will find more details in the survey papers.
 
 ## Survey Papers 
 
