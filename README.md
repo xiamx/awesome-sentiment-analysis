@@ -58,6 +58,8 @@ Cambria, Erik, Daniel Olsher, and Dheeraj Rajagopal. "SenticNet 3: a common and 
 
 ## Resources and Corpora
 
+AFINN: List of English words rated for valence [[web]](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010)
+
 SentiWordNet: Lexical resource devised for supporting sentiment analysis. [[web]](http://sentiwordnet.isti.cnr.it/) [[paper]](https://www.researchgate.net/profile/Fabrizio_Sebastiani/publication/220746537_SentiWordNet_30_An_Enhanced_Lexical_Resource_for_Sentiment_Analysis_and_Opinion_Mining/links/545fbcc40cf27487b450aa21.pdf)
 
 GloVe: Algorithm for obtaining word vectors. Pretrained word vectors available for download [[web]](http://nlp.stanford.edu/projects/glove/) [[paper]](http://nlp.stanford.edu/pubs/glove.pdf)
