@@ -1,4 +1,4 @@
-# 😀😄😂😭 Sentiment Analysis 😥😟😱😤
+# 😀😄😂😭 Awesome Sentiment Analysis 😥😟😱😤
 
 A curated list of Sentiment Analysis methods, implementations and misc.
 
