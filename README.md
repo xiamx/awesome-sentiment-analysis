@@ -64,6 +64,8 @@ GloVe: Algorithm for obtaining word vectors. Pretrained word vectors available f
 
 SemEval14-Task4: Annotated aspects and sentiments of laptops and restaurants reviews. [[web]](http://alt.qcri.org/semeval2014/task4/) [[paper]](http://www.aclweb.org/anthology/S14-2004)
 
+Stanford Sentiment Treebank: Sentiment dataset with fine-grained sentiment annotations [[web]](http://nlp.stanford.edu/sentiment/code.html) [[paper]](http://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf)
+
 ## Open Source Implementations
 
 The characteristics of each implementation are desribed.
