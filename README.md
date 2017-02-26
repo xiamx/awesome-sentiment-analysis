@@ -4,11 +4,11 @@ A curated list of Sentiment Analysis methods, implementations and misc.
 
 > Sentiment Analysis is the field of study that analyzes people's opinions, sentiments, evaluations, attitudes, and emotions from written languages. (Liu 2012)
 
-## Table of Content
+## Contents
 
 <!-- TOC -->
 
-- [Table of Content](#table-of-content)
+- [Contents](#contents)
 - [Objective](#objective)
 - [Introduction](#introduction)
 - [Survey Papers](#survey-papers)
