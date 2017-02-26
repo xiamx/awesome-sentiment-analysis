@@ -70,7 +70,7 @@ Stanford Sentiment Treebank: Sentiment dataset with fine-grained sentiment annot
 
 ## Open Source Implementations
 
-The characteristics of each implementation are desribed.
+The characteristics of each implementation are described.
 
 ### NodeJS
 [thisandagain/sentiment]( https://github.com/thisandagain/sentiment): Lexical, Dictionary-based, AFINN-based.
