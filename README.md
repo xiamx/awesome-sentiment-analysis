@@ -114,13 +114,11 @@ The characteristics of each implementation are described.
 
 ## SaaS APIs
 
-Google Cloud Natural Language API [[web]](https://cloud.google.com/natural-language/)
-
-IBM Watson Alchemy Language [[web]](https://www.ibm.com/watson/developercloud/alchemy-language.html)
-
-Microsoft Cognitive Service [[web]](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
-
-Aylien [[web]](https://developer.aylien.com/text-api-demo)
+* Google Cloud Natural Language API [[web]](https://cloud.google.com/natural-language/)
+* IBM Watson Alchemy Language [[web]](https://www.ibm.com/watson/developercloud/alchemy-language.html)
+* Microsoft Cognitive Service [[web]](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
+* Aylien [[web]](https://developer.aylien.com/text-api-demo)
+* Indico [[web]](https://www.indico.io/)
 
 ## Contributing
 
