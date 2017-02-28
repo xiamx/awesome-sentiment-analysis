@@ -119,6 +119,7 @@ The characteristics of each implementation are described.
 * Microsoft Cognitive Service [[web]](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
 * Aylien [[web]](https://developer.aylien.com/text-api-demo)
 * Indico [[web]](https://www.indico.io/)
+* TextRazor [[web]](https://www.textrazor.com/)
 
 ## Contributing
 
