@@ -89,7 +89,7 @@ The characteristics of each implementation are described.
 
 [vivekn/sentiment](https://github.com/vivekn/sentiment): Supervised Machine Learning, Naive Bayes Classifier. [[paper]](https://arxiv.org/abs/1305.6143)
 
-[xiaohan2012/twitter-sent-dnn](https://github.com/xiaohan2012/twitter-sent-dnn): Supervised Machine Learning, Deep Learning, Convolutional Neural Network. [[paper]](http://nal.co/papers/Kalchbrenner_DCNN_ACL14)
+[xiaohan2012/twitter-sent-dnn](https://github.com/xiaohan2012/twitter-sent-dnn): Supervised Machine Learning, Deep Learning, Convolutional Neural Network. [[paper]](http://phd.nal.co/papers/Kalchbrenner_DCNN_ACL14)
 
 [kevincobain2000/sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier): Supervised Machine Learning, Naive Bayes Classifier, Max Entropy Classifier, SentiWordNet.
 
