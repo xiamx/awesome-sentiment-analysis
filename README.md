@@ -72,6 +72,8 @@ Stanford Sentiment Treebank: Sentiment dataset with fine-grained sentiment annot
 
 The characteristics of each implementation are described.
 
+_**Caveats**: A key problem in sentiment analysis is its sensitivity to the domain from which either training data is sourced, or on which a sentiment lexicon is built. [[♠]](http://www.springer.com/gp/book/9783319389707) Be careful assuming off-the-shelf implementations will work for your problem, make sure to look at the model assumptions and validate whether they’re accurate on your own domain [[♦]](https://lobste.rs/s/zsfqyk/curated_list_sentiment_analysis_methods/comments/ge671n#c_ge671n)._
+
 ### NodeJS
 [thisandagain/sentiment]( https://github.com/thisandagain/sentiment): Lexical, Dictionary-based, AFINN-based.
 
