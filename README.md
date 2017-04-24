@@ -99,6 +99,8 @@ _**Caveats**: A key problem in sentiment analysis is its sensitivity to the doma
 
 [ganeshjawahar/mem_absa](https://github.com/ganeshjawahar/mem_absa): Aspect-Based, Supervised Machine Learning, Deep Learning, Attention-based, External Memory. [[paper]](https://arxiv.org/abs/1605.08900)
 
+[openai/generating-reviews-discovering-sentiment](https://github.com/openai/generating-reviews-discovering-sentiment): Deep Learning, byte mLSTM [[paper]](https://arxiv.org/abs/1704.01444)
+
 ### R
 [timjurka/sentiment](https://github.com/timjurka/sentiment): Supervised Machine Learning, Naive Bayes Classifier.
 
