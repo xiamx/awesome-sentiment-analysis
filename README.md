@@ -68,6 +68,8 @@ SemEval14-Task4: Annotated aspects and sentiments of laptops and restaurants rev
 
 Stanford Sentiment Treebank: Sentiment dataset with fine-grained sentiment annotations [[web]](http://nlp.stanford.edu/sentiment/code.html) [[paper]](http://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf)
 
+Multidimensional Lexicon for Interpersonal Stancetaking [[web]](https://github.com/umashanthi-research/multidimensional-stance-lexicon) [[paper]](https://www.cc.gatech.edu/~jeisenst/papers/pavalanathan-acl-camera-ready.pdf)
+
 ## Open Source Implementations
 
 The characteristics of each implementation are described.
@@ -100,6 +102,9 @@ _**Caveats**: A key problem in sentiment analysis is its sensitivity to the doma
 [ganeshjawahar/mem_absa](https://github.com/ganeshjawahar/mem_absa): Aspect-Based, Supervised Machine Learning, Deep Learning, Attention-based, External Memory. [[paper]](https://arxiv.org/abs/1605.08900)
 
 [openai/generating-reviews-discovering-sentiment](https://github.com/openai/generating-reviews-discovering-sentiment): Deep Learning, byte mLSTM [[paper]](https://arxiv.org/abs/1704.01444)
+
+[yiyang-gt/social-attention](https://github.com/yiyang-gt/social-attention): Deep Learning, Attention-based. Uses authors'
+position in the social network to aide sentiment analysis. [[paper]](https://arxiv.org/pdf/1511.06052.pdf).
 
 ### R
 [timjurka/sentiment](https://github.com/timjurka/sentiment): Supervised Machine Learning, Naive Bayes Classifier.
