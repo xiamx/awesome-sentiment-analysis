@@ -106,6 +106,8 @@ _**Caveats**: A key problem in sentiment analysis is its sensitivity to the doma
 [yiyang-gt/social-attention](https://github.com/yiyang-gt/social-attention): Deep Learning, Attention-based. Uses authors'
 position in the social network to aide sentiment analysis. [[paper]](https://arxiv.org/pdf/1511.06052.pdf).
 
+[thunlp/NSC](https://github.com/thunlp/NSC): Deep Learning, Attention-based. Uses user and production information.[[paper]](http://anthology.aclweb.org/D/D16/D16-1171.pdf).
+
 ### R
 [timjurka/sentiment](https://github.com/timjurka/sentiment): Supervised Machine Learning, Naive Bayes Classifier.
 
