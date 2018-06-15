@@ -23,6 +23,7 @@ Curated list of Sentiment Analysis methods, implementations and misc.
     - [Ruby](#ruby)
     - [CSharp](#csharp)
 - [SaaS APIs](#saas-apis)
+- [Web Apps](#web-apps)
 - [Contributing](#contributing)
 
 <!-- /TOC -->
@@ -131,6 +132,10 @@ position in the social network to aide sentiment analysis. [[paper]](https://arx
 * Aylien [[web]](https://developer.aylien.com/text-api-demo)
 * Indico [[web]](https://www.indico.io/)
 * Rosette API [[web]](https://developer.rosette.com/)
+
+## Web Apps
+
+* Textalytic [[web]](https://www.textalytic.com)
 
 ## Contributing
 
