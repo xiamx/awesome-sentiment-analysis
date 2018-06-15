@@ -1,4 +1,4 @@
-# 😀😄😂😭 Awesome Sentiment Analysis 😥😟😱😤  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# 😀😄😂😭 Awesome Sentiment Analysis 😥😟😱😤 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 Curated list of Sentiment Analysis methods, implementations and misc.
 
@@ -8,22 +8,23 @@ Curated list of Sentiment Analysis methods, implementations and misc.
 
 <!-- TOC -->
 
-- [Contents](#contents)
-- [Objective](#objective)
-- [Introduction](#introduction)
-- [Survey Papers](#survey-papers)
-- [Baseline Systems](#baseline-systems)
-- [Resources and Corpora](#resources-and-corpora)
-- [Open Source Implementations](#open-source-implementations)
-    - [NodeJS](#nodejs)
-    - [Java](#java)
-    - [Python](#python)
-    - [R](#r)
-    - [Golang](#golang)
-    - [Ruby](#ruby)
-    - [CSharp](#csharp)
-- [SaaS APIs](#saas-apis)
-- [Contributing](#contributing)
+* [Contents](#contents)
+* [Objective](#objective)
+* [Introduction](#introduction)
+* [Survey Papers](#survey-papers)
+* [Baseline Systems](#baseline-systems)
+* [Resources and Corpora](#resources-and-corpora)
+* [Open Source Implementations](#open-source-implementations)
+  * [NodeJS](#nodejs)
+  * [Java](#java)
+  * [Python](#python)
+  * [R](#r)
+  * [Golang](#golang)
+  * [Ruby](#ruby)
+  * [CSharp](#csharp)
+* [SaaS APIs](#saas-apis)
+* [Web Apps](#web-apps)
+* [Contributing](#contributing)
 
 <!-- /TOC -->
 
@@ -33,16 +34,17 @@ The goal of this repository is to provide adequate links for scholars who want t
 
 ## Introduction
 
-Sentiment Analysis happens at various levels: 
-- Document-level Sentiment Analysis evaluate sentiment of a single entity (i.e. a product) from a review document. 
-- Sentence-level Sentiment Analysis evaluate sentiment from a single sentence. 
-- Aspect-level Sentiment Analysis performs finer-grain analysis. For example, the sentence “the iPhone’s call quality is good, but its battery life is short.” evaluates two aspects: call quality and battery life, of iPhone (entity). The sentiment on iPhone’s call quality is positive, but the sentiment on its battery life is negative. (Liu 2012)
+Sentiment Analysis happens at various levels:
+
+* Document-level Sentiment Analysis evaluate sentiment of a single entity (i.e. a product) from a review document.
+* Sentence-level Sentiment Analysis evaluate sentiment from a single sentence.
+* Aspect-level Sentiment Analysis performs finer-grain analysis. For example, the sentence “the iPhone’s call quality is good, but its battery life is short.” evaluates two aspects: call quality and battery life, of iPhone (entity). The sentiment on iPhone’s call quality is positive, but the sentiment on its battery life is negative. (Liu 2012)
 
 Most recent research focuses on the aspect-based approaches. But not all opensource implementations are caught up yet.
 
 There are many different approaches to solve the problem. Lexical methods, for example, look at the frequency of words expressing positive and negative sentiment (from i.e. SentiWordNet) occurring in the given sentence. Supervised Machine Learning, such as Naive Bayes and Support Vector Machine (SVM), can be used with training data. Since training examples are difficult to obtain, Unsupervised Machine Learning, such as Latent Dirichlet Allocation (LDA) and word embeddings (Word2Vec) are also used on large unlabeled datasets. Recent works also apply Deep Learning methods such as Convolutional Neural Network (CNN) and Long Short-term Memory (LSTM), as well as their attention-based variants. You will find more details in the survey papers.
 
-## Survey Papers 
+## Survey Papers
 
 Liu, Bing. "Sentiment analysis and opinion mining." Synthesis lectures on human language technologies 5.1 (2012): 1-167. [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.244.9480&rep=rep1&type=pdf)
 
@@ -77,11 +79,13 @@ The characteristics of each implementation are described.
 _**Caveats**: A key problem in sentiment analysis is its sensitivity to the domain from which either training data is sourced, or on which a sentiment lexicon is built. [[♠]](http://www.springer.com/gp/book/9783319389707) Be careful assuming off-the-shelf implementations will work for your problem, make sure to look at the model assumptions and validate whether they’re accurate on your own domain [[♦]](https://lobste.rs/s/zsfqyk/curated_list_sentiment_analysis_methods/comments/ge671n#c_ge671n)._
 
 ### NodeJS
-[thisandagain/sentiment]( https://github.com/thisandagain/sentiment): Lexical, Dictionary-based, AFINN-based.
+
+[thisandagain/sentiment](https://github.com/thisandagain/sentiment): Lexical, Dictionary-based, AFINN-based.
 
 [thinkroth/Sentimental](https://github.com/thinkroth/Sentimental) Lexical, Dictionary-based, AFINN-based.
 
 ### Java
+
 [LingPipe](http://alias-i.com/): Lexical, Corpus-based, Supervised Machine Learning
 
 [CoreNLP](https://github.com/stanfordnlp/CoreNLP): Supervised Machine Learning, Deep Learning
@@ -89,6 +93,7 @@ _**Caveats**: A key problem in sentiment analysis is its sensitivity to the doma
 [ASUM](http://uilab.kaist.ac.kr/research/WSDM11/): Unsupervised Machine Learning, Latent Dirichlet Allocation. [[paper]](http://www.cs.cmu.edu/~yohanj/research/papers/WSDM11.pdf)
 
 ### Python
+
 [nltk](http://www.nltk.org/): [VADER](https://github.com/cjhutto/vaderSentiment) sentiment analysis tool, Lexical, Dictionary-based, Rule-based. [[paper]](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf)
 
 [vivekn/sentiment](https://github.com/vivekn/sentiment): Supervised Machine Learning, Naive Bayes Classifier. [[paper]](https://arxiv.org/abs/1305.6143)
@@ -109,19 +114,22 @@ position in the social network to aide sentiment analysis. [[paper]](https://arx
 [thunlp/NSC](https://github.com/thunlp/NSC): Deep Learning, Attention-based. Uses user and production information.[[paper]](http://anthology.aclweb.org/D/D16/D16-1171.pdf).
 
 ### R
+
 [timjurka/sentiment](https://github.com/timjurka/sentiment): Supervised Machine Learning, Naive Bayes Classifier.
 
 ### Golang
+
 [cdipaolo/sentiment](https://github.com/cdipaolo/sentiment): Supervised Machine Learning, Naive Bayes Classifier. Based on [cdipaolo/goml](https://github.com/cdipaolo/goml).
 
 ### Ruby
+
 [malavbhavsar/sentimentalizer](https://github.com/malavbhavsar/sentimentalizer): Lexical, Dictionary-based.
 
 [7compass/sentimental](https://github.com/7compass/sentimental): Lexical, Dictionary-based.
 
 ### CSharp
-[amrish7/Dragon](https://github.com/amrish7/Dragon): Supervised Machine Learning, Naive Bayes Classifier.
 
+[amrish7/Dragon](https://github.com/amrish7/Dragon): Supervised Machine Learning, Naive Bayes Classifier.
 
 ## SaaS APIs
 
@@ -132,11 +140,15 @@ position in the social network to aide sentiment analysis. [[paper]](https://arx
 * Indico [[web]](https://www.indico.io/)
 * Rosette API [[web]](https://developer.rosette.com/)
 
+## Web Apps
+
+* Textalytic [[web]](https://www.textalytic.com)
+
 ## Contributing
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
 Steps to contribute:
 
-- Make your awesome changes
-- Submit pull request; if you add a new entry, please give a very brief explanation why you think it should be added.
+* Make your awesome changes
+* Submit pull request; if you add a new entry, please give a very brief explanation why you think it should be added.
