@@ -96,6 +96,8 @@ _**Caveats**: A key problem in sentiment analysis is its sensitivity to the doma
 
 [xiaohan2012/twitter-sent-dnn](https://github.com/xiaohan2012/twitter-sent-dnn): Supervised Machine Learning, Deep Learning, Convolutional Neural Network. [[paper]](http://phd.nal.co/papers/Kalchbrenner_DCNN_ACL14)
 
+[abdulfatir/twitter-sentiment-analysis](https://github.com/abdulfatir/twitter-sentiment-analysis): Sentiment analysis on tweets using Naive Bayes, SVM, CNN, LSTM, etc.
+
 [kevincobain2000/sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier): Supervised Machine Learning, Naive Bayes Classifier, Max Entropy Classifier, SentiWordNet.
 
 [pedrobalage/SemevalAspectBasedSentimentAnalysis](https://github.com/pedrobalage/SemevalAspectBasedSentimentAnalysis): Aspect-Based, Supervised Machine Learning, Conditional Random Field.
